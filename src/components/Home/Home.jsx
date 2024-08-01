@@ -4,11 +4,16 @@ import Social from './Social.jsx';
 import Data from "./Data"
 import Showreel from '../Reels/Showreel.jsx';
 import Reels from '../Reels/Reels.jsx';
+import Skills from "../Reels/Skills";
+import Footer from '../Footer/Footer.jsx';
+import Contact from '../Contact/Contact.jsx';
 import "../../styles/Footer.css"
 import "../../styles/Reels.css";
 import "../../styles/Home.css";
 import "../../styles/Showreel.css";
-import Footer from '../Footer/Footer.jsx';
+import "../../styles/Skills.css";
+import "../../styles/Contact.css";
+
 
 
 function Home() {
@@ -28,6 +33,8 @@ function Home() {
         </section>
         <Showreel/>
         <Reels/>
+        <Skills/>
+        <Contact/>
       </main>
       <Footer/>
     </div>

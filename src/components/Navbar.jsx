@@ -19,9 +19,9 @@ function Navbar() {
     </p>
     <nav ref={navRef}>
       <a href="#home">Home</a>
-      <a href="#about">About Me</a>
-      <a href="#skills">Skills & Tools</a>
-      <a href="#projects">Projects</a>
+      <a href="#showreels">Show Reels</a>
+      <a href="#reels">Reels</a>
+      <a href="#skills">Skills</a>
       <a href="#contacts" className="contact">
         Contact Me
       </a>

@@ -11,20 +11,20 @@ function Footer() {
 
         <ul className="footer__list">
           <li>
-            <a href="#about" className="footer__link">
-              About
+            <a href="#home" className="footer__link">
+              Home
             </a>
           </li>
 
           <li>
-            <a href="#projects" className="footer__link">
-              Projects
+            <a href="#showreels" className="footer__link">
+              Show Reels
             </a>
           </li>
 
           <li>
-            <a href="#services" className="footer__link">
-              Services
+            <a href="#reels" className="footer__link">
+              Reels
             </a>
           </li>
         </ul>

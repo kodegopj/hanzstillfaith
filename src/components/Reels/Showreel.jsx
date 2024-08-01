@@ -4,7 +4,7 @@ import show from "../../assets/show.mp4";
 
 function Showreel() {
   return (
-    <div className='background' id='showreel'>
+    <div className='background' id='showreels'>
         <div className='show_reels'>
             <b className='reels__text'>SHOW </b> <b className='reels__text text' >REELS</b>
         </div>
