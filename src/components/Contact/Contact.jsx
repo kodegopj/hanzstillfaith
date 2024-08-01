@@ -1,7 +1,7 @@
 import { RiMailSendFill } from "react-icons/ri";
 import { FaArrowRight } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
-import { SiMessenger } from "react-icons/si";
+import { FaFacebook } from "react-icons/fa";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -36,11 +36,11 @@ function Contact() {
               <RiMailSendFill className="contacts__icon" />
               <h3 className="contacts__card-title">Email</h3>
               <span className="contacts__card-data">
-                d.highlyfavored11@gmail.com
+                hanzjonvi.malata14@gmail.com
               </span>
 
               <a
-                href="https://mail.google.com/mail/u/0/#inbox"
+                href="hanzjonvi.malata14@gmail.com"
                 className="contacts__button"
               >
                 Write me
@@ -50,22 +50,24 @@ function Contact() {
 
             <div className="contacts__card">
               <FaLinkedin className="contacts__icon" />
-              <h3 className="contacts__card-title">linkedin</h3>
-              <span className="contacts__card-data">linkedin</span>
+              <h3 className="contacts__card-title">LinkedIn</h3>
+              <span className="contacts__card-data">
+                https://www.linkedin.com/in/hanz-stillfaith-malata-08032330a/
+              </span>
 
-              <a href="https://www.linkedin.com/in/paul-john-cunanan-b91176297" className="contacts__button">
+              <a href="https://www.linkedin.com/in/hanz-stillfaith-malata-08032330a/" className="contacts__button">
                 Write me
                 <FaArrowRight className="arrow__icon" />
               </a>
             </div>
 
             <div className="contacts__card">
-              <SiMessenger className="contacts__icon" />
-              <h3 className="contacts__card-title">Messenger</h3>
+              <FaFacebook className="contacts__icon" />
+              <h3 className="contacts__card-title">Facebook</h3>
               <span className="contacts__card-data"></span>
 
               <a
-                href="https://www.facebook.com/pauljohn.cunanan.14"
+                href="https://www.facebook.com/hanzstillfaith.malata.5"
                 className="contacts__button"
               >
                 Write me

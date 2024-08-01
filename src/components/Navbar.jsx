@@ -15,7 +15,7 @@ function Navbar() {
     <div className="nav-head">
     <p className="paul">
       {" "}
-      <b>Paul John</b>{" "}
+      <b>Hanz StillFaith Malata</b>{" "}
     </p>
     <nav ref={navRef}>
       <a href="#home">Home</a>
