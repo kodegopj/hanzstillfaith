@@ -280,6 +280,7 @@
   }
   .home__subtitle {
     font-size: 25px;
+    padding-left: 0;
   }
 
   .containe {
@@ -379,7 +380,6 @@
 
   .home__subtitle {
     font-size: 23px;
-    padding-left: 10px;
   }
 
   .containe {
