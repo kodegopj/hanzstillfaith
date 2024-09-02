@@ -4,6 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { SiMessenger } from "react-icons/si";
 import { RiMailSendFill } from "react-icons/ri";
 import { FaSquareUpwork } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -48,6 +49,13 @@ function Footer() {
             target="_blank"
           >
             <FaFacebook />
+          </a>
+          <a
+            href="https://www.instagram.com/hanz_stllfth/"
+            className="footer__social-link"
+            target="_blank"
+          >
+            <FaInstagram />
           </a>
         </div>
       </div>

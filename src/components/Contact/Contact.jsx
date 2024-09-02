@@ -64,7 +64,9 @@ function Contact() {
             <div className="contacts__card">
               <FaFacebook className="contacts__icon" />
               <h3 className="contacts__card-title">Facebook</h3>
-              <span className="contacts__card-data"></span>
+              <span className="contacts__card-data">
+                https://www.facebook.com/hanzstillfaith.malata.5
+              </span>
 
               <a
                 href="https://www.facebook.com/hanzstillfaith.malata.5"
