@@ -411,3 +411,10 @@
         height: 10px;
     }
 }
+
+.more__text {
+    background-color: #eeb746;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: #1e1d1d;
+}

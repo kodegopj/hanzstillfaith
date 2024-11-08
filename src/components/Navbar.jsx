@@ -2,7 +2,8 @@ import { useRef } from "react";
 import React from 'react';
 import { FaTimes } from "react-icons/fa";
 import { RiApps2Line } from "react-icons/ri";
-import "../styles/Nav.css"
+import "../styles/Nav.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     const navRef = useRef();
@@ -18,6 +19,7 @@ function Navbar() {
       <b>Hanz StillFaith Malata</b>{" "}
     </p>
     <nav ref={navRef}>
+       
       <a href="#home">Home</a>
       <a href="#showreels">Show Reels</a>
       <a href="#reels">Reels</a>

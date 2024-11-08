@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import v1 from "../../assets/v1.mp4";
 import v2 from "../../assets/v2.mp4";
 import v3 from "../../assets/v3.mp4";
@@ -18,7 +19,9 @@ function Reels() {
   return (
     
     <div className='backphone' id='reels'>
-        <div className='more__text'> <b>More Sample</b></div>
+        <div className='more__text'> 
+         <b>More Sample</b>
+        </div>
      <div className='container__reels'>
       
         <div className='card'>
@@ -219,6 +222,11 @@ function Reels() {
          </div>
         </div>
      </div>
+     <button className='more__text'> 
+        <Link to="/moresamples"> 
+          <b>More Sample</b>
+        </Link>
+      </button>
    
     </div>
   )
