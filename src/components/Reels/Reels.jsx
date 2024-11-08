@@ -222,7 +222,7 @@ function Reels() {
          </div>
         </div>
      </div>
-     <button className='more__text'> 
+     <button className='more__texts'> 
         <Link to="/moresamples"> 
           <b>More Sample</b>
         </Link>

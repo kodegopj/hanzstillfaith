@@ -412,9 +412,11 @@
     }
 }
 
-.more__text {
+.more__texts {
     background-color: #eeb746;
     padding: 15px 25px;
     border-radius: 25px;
     color: #1e1d1d;
+    font-size: 1.9rem;
+    margin-bottom: 50px;
 }
