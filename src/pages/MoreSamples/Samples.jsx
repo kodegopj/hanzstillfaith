@@ -25,6 +25,8 @@ import v23 from "../../assets/v23.mp4";
 import v24 from "../../assets/v24.mp4";
 import Navbar from "../../components/Navbar.jsx";
 import SamplesNav from "./SamplesNav.jsx";
+import { FaArrowCircleUp } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function moresamples() {
   return (
@@ -35,6 +37,52 @@ function moresamples() {
           {" "}
           <b>More Sample</b>
         </div>
+
+    {/* ------------ BUTTON CONTAINER ------------ */}
+
+          <div className='buttonmastercontainer'>
+            <div className='buttoncontainer'>
+              <button className='more__texts'> 
+                <Link to="/podcast"> 
+                  <b>Podcast</b>
+                </Link>
+              </button>
+    
+              <button className='more__texts'> 
+                <Link to="/promotional"> 
+                  <b>Promotional Content</b>
+                </Link>
+              </button>
+    
+              <button className='more__texts'> 
+                <Link to="/smcontent"> 
+                  <b>Social Media Content</b>
+                </Link>
+              </button>
+            </div>
+    
+            <div className='buttoncontainer'>
+              <button className='more__texts'> 
+                <Link to="/realstate"> 
+                  <b>Real Estate</b>
+                </Link>
+              </button>
+    
+              <button className='more__texts'> 
+                <Link to="/educational"> 
+                  <b>Educational Content</b>
+                </Link>
+              </button>
+    
+              {/* <button className='more__texts'> 
+                <Link to="/moresamples"> 
+                  <b>Real Estate</b>
+                </Link>
+              </button> */}
+            </div>
+    
+          </div>
+
         <div className="container__reels">
           <div className="card">
             <div className="upper">------</div>
@@ -502,6 +550,18 @@ function moresamples() {
             </div>
           </div>
         </div>
+
+    {/* ------------- SCROLL UP -------------   */}
+
+          <div className='scrollup'>
+            Scroll Up to Show more   
+  
+            <div className='arrowup'>
+              <FaArrowCircleUp/>
+            </div>   
+          </div>
+
+
       </div>
     </div>
   );

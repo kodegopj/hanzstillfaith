@@ -222,11 +222,50 @@ function Reels() {
          </div>
         </div>
      </div>
-     <button className='more__texts'> 
-        <Link to="/moresamples"> 
-          <b>More Sample</b>
-        </Link>
-      </button>
+
+     <div className='buttonmastercontainer'>
+      
+        <div className='buttoncontainer'>
+          <button className='more__texts'> 
+            <Link to="/podcast"> 
+              <b>Podcast</b>
+            </Link>
+          </button>
+
+          <button className='more__texts'> 
+            <Link to="/promotional"> 
+              <b>Promotional Content</b>
+            </Link>
+          </button>
+
+          <button className='more__texts'> 
+            <Link to="/smcontent"> 
+              <b>Social Media Content</b>
+            </Link>
+          </button>
+        </div>
+
+        <div className='buttoncontainer'>
+          <button className='more__texts'> 
+            <Link to="/realstate"> 
+              <b>Real Estate</b>
+            </Link>
+          </button>
+
+          <button className='more__texts'> 
+            <Link to="/educational"> 
+              <b>Educational Content</b>
+            </Link>
+          </button>
+
+          {/* <button className='more__texts'> 
+            <Link to="/moresamples"> 
+              <b>Real Estate</b>
+            </Link>
+          </button> */}
+        </div>
+
+     </div>
    
     </div>
   )
