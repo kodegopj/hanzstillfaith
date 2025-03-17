@@ -9,6 +9,7 @@ import Promotional from "./pages/Promotional/Promotional";
 import Educational from "./pages/Educational/Educational";
 import SMContent from "./pages/SMContent/SMContent";
 import Realstate from "./pages/Realstate/Realstate";
+import Projectone from "./pages/Projectone/Projectone";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <Route path="/realstate" exact element={<Realstate />} />
         <Route path="/contact" exact element={<ContactSample />} />
         <Route path="/showreels" exact element={<Showreels />} />
+        <Route path="/projectone" exact element={<Projectone />} />
+        
       </Routes>
     </>
   );

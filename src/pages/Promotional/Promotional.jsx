@@ -4,7 +4,7 @@ import p2 from "../../assets/Promotional/p2.mp4"
 import p3 from "../../assets/Promotional/p3.mp4"
 import p4 from "../../assets/Promotional/p4.mp4"
 import p5 from "../../assets/Promotional/p5.mp4"
-import pc6 from "../../assets/Podcast/pc6.mp4"
+import p6 from "../../assets/Promotional/p6.mp4";
 import pc7 from "../../assets/Podcast/pc7.mp4"
 import pc8 from "../../assets/Podcast/pc8.mp4"
 import pc9 from "../../assets/Podcast/pc9.mp4"
@@ -14,6 +14,7 @@ import pc12 from "../../assets/Podcast/pc12.mp4"
 import PromotionalNav from "./PromotionalNav.jsx";
 import { FaArrowCircleUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
 
 
 function moresamples() {
@@ -169,11 +170,11 @@ function moresamples() {
             </div>
           </div>
 
-          {/* <div className="card">
+          <div className="card">
             <div className="upper">------</div>
             <div className="phone21">
               <video
-                src={pc6}
+                src={p6}
                 controls
                 autoPlay
                 muted
@@ -188,7 +189,7 @@ function moresamples() {
             </div>
           </div>
 
-          <div className="card">
+          {/* <div className="card">
             <div className="upper">------</div>
             <div className="phone21">
               <video
@@ -205,9 +206,9 @@ function moresamples() {
                 <div className="circle"></div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="card">
+          {/* <div className="card">
             <div className="upper">------</div>
             <div className="phone21">
               <video
