@@ -8,6 +8,7 @@ import Skills from "../../components/Reels/Skills.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import Contact from "../../components/Contact/Contact.jsx";
 import Featured from "../../components/Featured/Featured.jsx";
+import Graphics from "../../components/Graphics/Graphics.jsx";
 import "../../styles/Footer.css";
 import "../../styles/Reels.css";
 import "../../styles/Home.css";
@@ -33,6 +34,9 @@ function Home() {
           </section>
           <Showreel />
           <Featured/>
+          <Graphics/>
+
+
           <Reels />
           <Skills />
           <Contact />
